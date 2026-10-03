@@ -57,6 +57,6 @@ Yeni hesap açmak için menüdeki **Kayıt ol** bağlantısını kullanın (paro
 
 Bu bölümü kendi ekip bilgilerinizle doldurun:
 
-- Ekip adı:
-- Üyeler:Zehra AGRAS, Ali Gunduz
-- Proje konusu:
+- Ekip adı: Ekip 12
+- Üyeler:Zehra AGRAS, Ali Gunduz, Sema Eser
+- Proje konusu: Stok Takibi
