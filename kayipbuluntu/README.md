@@ -57,6 +57,6 @@ Yeni hesap açmak için menüdeki **Kayıt ol** bağlantısını kullanın (paro
 
 Bu bölümü kendi ekip bilgilerinizle doldurun:
 
-- Ekip adı:Ali Gunduz
+- Ekip adı:
 - Üyeler:
 - Proje konusu:
