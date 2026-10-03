@@ -1,0 +1,51 @@
+/* Kampüs Kayıp-Buluntu — sade stil dosyası
+   Amaç: okunabilir olmak. Süsleme yok, çerçeve kullanılmadı. */
+
+body {
+  font-family: system-ui, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #222;
+  background: #fafafa;
+}
+
+header {
+  background: #1f4e79;
+  color: #fff;
+  padding: 16px 24px;
+}
+header h1 { margin: 0; font-size: 22px; }
+
+nav {
+  background: #2e75b6;
+  padding: 8px 24px;
+}
+nav a { color: #fff; text-decoration: none; margin-right: 18px; }
+nav a:hover { text-decoration: underline; }
+
+main { max-width: 900px; margin: 24px auto; padding: 0 16px; }
+section { background: #fff; border: 1px solid #ddd; padding: 16px 20px; margin-bottom: 20px; }
+h2 { margin-top: 0; font-size: 18px; color: #1f4e79; }
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; }
+th { background: #eef4fa; }
+
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, select, textarea { width: 100%; max-width: 420px; padding: 6px; border: 1px solid #bbb; }
+button { margin-top: 16px; padding: 8px 18px; background: #1f4e79; color: #fff; border: 0; cursor: pointer; }
+
+.filtre { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+.filtre label { margin-top: 0; }
+.filtre input, .filtre select { width: auto; }
+.filtre button { margin-top: 0; }
+
+.hata { color: #b00020; font-weight: bold; }
+.basarili { color: #2e7d32; font-weight: bold; }
+
+footer { text-align: center; color: #666; padding: 20px; font-size: 13px; }
+
+img.kucuk { width: 54px; height: 40px; object-fit: cover; border-radius: 4px; display: block; }
+img.onizleme { max-width: 220px; border: 1px solid #ddd; border-radius: 6px; margin-top: 8px; }
+.yok { color: #999; }
+form:not(.filtre) button { display: block; }
